@@ -13,7 +13,7 @@ const ViewProject = () => {
       
       <h1 className="text-3xl sm:text-4xl font-bold text-center mb-6">MediMate</h1>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-6">
         <img src={mainImage1} alt="Main Image 1" className="w-full h-auto bg-gray-200 rounded-lg object-cover" />
         <img src={mainImage2} alt="Main Image 2" className="w-full h-auto bg-gray-200 rounded-lg object-cover" />
         <img src={mainImage3} alt="Main Image 3" className="w-full h-auto bg-gray-200 rounded-lg object-cover" />
@@ -49,39 +49,33 @@ const ViewProject = () => {
 
       <h2 className="text-xl sm:text-2xl font-semibold mb-4 text-center">Features</h2>
 
-      
       <div className="mb-12"> 
-        
-        
         <div className="flex flex-col md:flex-row items-center mb-8"> 
-          <img src={additionalImage1} alt="Additional Image 1" className="w-full md:w-1/2 h-auto rounded-lg object-cover md:mr-4" />
-          <div className="md:w-1/2 text-gray-800 mt-4 md:mt-0">
+          <img src={additionalImage1} alt="Additional Image 1" className="w-full md:w-1/2 h-auto rounded-lg object-cover md:mr-4 mb-4 md:mb-0" />
+          <div className="md:w-1/2 text-gray-800">
             <h3 className="text-lg font-semibold mb-2">Your AI Therapist</h3>
             <p>This feature includes a supportive chatbot, allowing users to share their thoughts and receive immediate, compassionate responses anytime they need.</p>
           </div>
         </div>
 
-        
         <div className="flex flex-col md:flex-row items-center mb-8"> 
-          <div className="md:w-1/2 text-gray-800 mt-4 md:mt-0">
+          <div className="md:w-1/2 text-gray-800 mb-4 md:mb-0">
             <h3 className="text-lg font-semibold mb-2">Meditation</h3>
             <p>This feature includes guided meditations and mindfulness exercises to help users relax and refocus.</p>
           </div>
           <img src={additionalImage2} alt="Additional Image 2" className="w-full md:w-1/2 h-auto rounded-lg object-cover md:ml-4" />
         </div>
 
-        
         <div className="flex flex-col md:flex-row items-center mb-8"> 
-          <img src={additionalImage3} alt="Additional Image 3" className="w-full md:w-1/2 h-auto rounded-lg object-cover md:mr-4" />
-          <div className="md:w-1/2 text-gray-800 mt-4 md:mt-0">
+          <img src={additionalImage3} alt="Additional Image 3" className="w-full md:w-1/2 h-auto rounded-lg object-cover md:mr-4 mb-4 md:mb-0" />
+          <div className="md:w-1/2 text-gray-800">
             <h3 className="text-lg font-semibold mb-2">Personal Journal</h3>
             <p>This feature provides a personal journal, offering users a safe space to express their thoughts and track their emotional journey over time.</p>
           </div>
         </div>
 
-        
         <div className="flex flex-col md:flex-row items-center mb-8"> 
-          <div className="md:w-1/2 text-gray-800 mt-4 md:mt-0">
+          <div className="md:w-1/2 text-gray-800 mb-4 md:mb-0">
             <h3 className="text-lg font-semibold mb-2">Resources</h3>
             <p>This feature connects users with mental health resources, making it easier to find support when needed.</p>
           </div>
@@ -89,7 +83,6 @@ const ViewProject = () => {
         </div>
       </div>
 
-      
       <h2 className="text-xl sm:text-xl font-semibold mb-4 text-center">What I Learned</h2> 
       <ul className="list-disc list-inside text-gray-700 mb-8 mx-auto max-w-prose">
         {[
