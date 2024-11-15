@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaArrowLeft } from 'react-icons/fa'; // Importing an arrow icon from react-icons
 import mainImage1 from '../assets/welcome.png';
 import mainImage2 from '../assets/gettingStarted.png';  
 import mainImage3 from '../assets/homepage.png';  
@@ -8,9 +9,22 @@ import additionalImage3 from '../assets/journal.png';
 import additionalImage4 from '../assets/Explore.png'; 
 
 const ViewProject = () => {
+  const handleBackToHome = () => {
+    window.location.href = '/'; 
+  };
+
   return (
-    <section className="p-4 sm:p-8 mx-auto max-w-4xl">
-      
+    <section className="p-4 sm:p-8 mx-auto max-w-4xl relative">
+
+      {/* Back Arrow Icon */}
+      <div 
+        className="absolute top-4 left-4 cursor-pointer text-gray-600 hover:text-blue-500" 
+        onClick={handleBackToHome}
+        aria-label="Back to Home"
+      >
+        <FaArrowLeft size={24} />
+      </div>
+
       <h1 className="text-3xl sm:text-4xl font-bold text-center mb-6">MediMate</h1>
       
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-6">
@@ -49,9 +63,7 @@ const ViewProject = () => {
 
       <h2 className="text-xl sm:text-2xl font-semibold mb-4 text-center">Features</h2>
 
-      
       <div className="mb-12"> 
-        
         
         <div className="flex flex-col md:flex-row items-center mb-8"> 
           <img src={additionalImage1} alt="Additional Image 1" className="w-full md:w-1/2 h-auto rounded-lg object-cover md:mr-4" />
@@ -87,9 +99,9 @@ const ViewProject = () => {
           </div>
           <img src={additionalImage4} alt="Additional Image 4" className="w-full md:w-1/2 h-auto rounded-lg object-cover md:ml-4" />
         </div>
+
       </div>
 
-      
       <h2 className="text-xl sm:text-xl font-semibold mb-4 text-center">What I Learned</h2> 
       <ul className="list-disc list-inside text-gray-700 mb-8 mx-auto max-w-prose">
         {[
