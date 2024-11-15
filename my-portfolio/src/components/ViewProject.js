@@ -10,7 +10,7 @@ import additionalImage4 from '../assets/Explore.png';
 
 const ViewProject = () => {
   const handleBackToHome = () => {
-    window.location.href = '/'; 
+    window.location.href = '/portfolio'; 
   };
 
   return (
