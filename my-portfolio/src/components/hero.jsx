@@ -17,7 +17,7 @@ export default function Hero() {
           <a href="https://github.com/addynair" target="_blank" rel="noreferrer" className="link-pill solid">
             GitHub ↗
           </a>
-          <a href="/Resume.pdf" target="_blank" rel="noreferrer" className="link-pill ghost">
+          <a href="/CV.pdf" target="_blank" rel="noreferrer" className="link-pill ghost">
             Resume ↗
           </a>
           <a href="https://linkedin.com/in/justaddy" target="_blank" rel="noreferrer" className="link-pill ghost">

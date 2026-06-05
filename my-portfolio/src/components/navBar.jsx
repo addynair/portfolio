@@ -5,7 +5,7 @@ export default function Navbar() {
       <div className="nav-right">
         <a href="#work">Work</a>
         <a href="#skills">Skills</a>
-        <a href="/resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        <a href="/CV.pdf" target="_blank" rel="noreferrer">Resume</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
         <span className="nav-avail">
