@@ -2,6 +2,7 @@ import './index.css';
 import Navbar from './components/navBar';
 import Hero from './components/hero';
 import NowSection from './components/nowSection';
+import Experience from './components/experience';
 import Projects from './components/projects';
 import Skills from './components/skills';
 import About from './components/about';
@@ -15,6 +16,7 @@ export default function App() {
       <div className="container">
         <Hero />
         <NowSection />
+        <Experience />
         <Projects />
         <Skills />
         <About />

@@ -1,7 +1,7 @@
 const tags = [
   "Kerala, India",
   "Batch of 2027",
-  "Open to internships",
+  "SDE Intern @ Bolt.Earth",
   "Open source",
   "Reader + writer",
 ];

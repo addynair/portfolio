@@ -4,9 +4,13 @@ export default function NowSection() {
       <p className="section-eyebrow">Right now</p>
       <div className="now-text">
         <p>
-          Currently in my third year, shipping projects across the full stack. My latest is{" "} 
-          <strong>CeeVee</strong> it uses LLaMA 3.3 to parse your resume against a job description 
-          and tell you exactly what's missing.
+          Currently in my third year and interning as an SDE at <strong>Bolt.Earth</strong>, building
+          internal B2B tools with Next.js, Node.js and PostgreSQL, with AWS Cognito auth and Kubernetes
+          deployments.
+        </p>
+        <p>
+          On the side, my latest project is <strong>CeeVee</strong>. It uses LLaMA 3.3 to parse your
+          resume against a job description and tell you exactly what's missing.
         </p>
         <p>
           I care about things being genuinely useful, not just technically interesting. If it

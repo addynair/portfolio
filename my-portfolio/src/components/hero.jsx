@@ -8,9 +8,10 @@ export default function Hero() {
           <em>I build for the web,<br />and I care how it looks.</em>
         </h1>
         <p className="hero-bio fade d3">
-          Third-year B.Tech student at <strong>Amrita Vishwa Vidyapeetham, Kerala</strong>, focused on{" "}
-          <strong>full-stack & software engineering</strong>. I build with{" "}
-          <strong>React, Next.js, Node.js</strong> and care deeply about how things feel to use,
+          SDE Intern at <strong>Bolt.Earth</strong> and third-year B.Tech student at{" "}
+          <strong>Amrita Vishwa Vidyapeetham, Kerala</strong>, focused on{" "}
+          <strong>backend & full-stack engineering</strong>. I build with{" "}
+          <strong>Next.js, Node.js, PostgreSQL</strong> and care deeply about how things feel to use,
           not just whether they work.
         </p>
         <div className="hero-links fade d4">

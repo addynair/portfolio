@@ -232,6 +232,9 @@ section { padding: 5rem 0; border-bottom: 1px solid var(--line); }
 .exp-title { font-weight: 500; font-size: 0.95rem; margin-bottom: 0.25rem; }
 .exp-org { font-size: 0.82rem; color: var(--ink-muted); margin-bottom: 0.5rem; }
 .exp-desc { font-size: 0.85rem; color: var(--ink-soft); font-weight: 300; line-height: 1.7; }
+.exp-stack { font-size: 0.74rem; color: var(--ink-muted); font-style: italic; margin-bottom: 0.75rem; }
+.exp-points { list-style: disc; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.45rem; }
+.exp-points li { font-size: 0.85rem; color: var(--ink-soft); font-weight: 300; line-height: 1.7; }
 
 /* CONTACT */
 .contact-section { padding: 5rem 0 7rem; border-bottom: none; }
