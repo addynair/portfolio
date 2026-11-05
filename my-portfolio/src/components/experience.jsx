@@ -1,8 +1,10 @@
+import BoltLink from "./boltLink";
+
 const experience = [
   {
     period: "Aug 2026 – Present",
     title: "Software Development Engineer Intern",
-    org: "Bolt.Earth",
+    org: <BoltLink />,
     stack: "Node.js, Express.js, PostgreSQL, Next.js, AWS Cognito, AWS S3, Kubernetes",
     points: [
       "Built an internal B2B dealer ordering platform end-to-end (Next.js frontend, Node.js/Express REST APIs, PostgreSQL), replacing manual dealer ordering with a single self-serve workflow.",
@@ -28,7 +30,7 @@ export default function Experience() {
       <p className="section-eyebrow">Experience</p>
       <div className="exp-list">
         {experience.map((e) => (
-          <div key={e.org} className="exp-item">
+          <div key={e.period} className="exp-item">
             <p className="exp-period">{e.period}</p>
             <div>
               <p className="exp-title">{e.title}</p>

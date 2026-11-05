@@ -19,10 +19,6 @@ const skillGroups = [
     name: "Cloud & Tools",
     items: ["AWS (Cognito, S3), Kubernetes", "Vercel, Render, Neon", "Git / GitHub, Jira, Figma"],
   },
-  {
-    name: "Problem solving",
-    items: ["80+ LeetCode (Easy–Medium)", "Arrays, hashing, two pointers", "Binary search"],
-  },
 ];
 
 export default function Skills() {

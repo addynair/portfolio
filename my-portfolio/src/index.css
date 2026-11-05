@@ -236,6 +236,9 @@ section { padding: 5rem 0; border-bottom: 1px solid var(--line); }
 .exp-points { list-style: disc; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.45rem; }
 .exp-points li { font-size: 0.85rem; color: var(--ink-soft); font-weight: 300; line-height: 1.7; }
 
+.bolt-link { color: #62a362; font-weight: 500; text-decoration: none; }
+.bolt-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+
 /* CONTACT */
 .contact-section { padding: 5rem 0 7rem; border-bottom: none; }
 .contact-note {

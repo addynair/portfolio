@@ -1,10 +1,12 @@
+import BoltLink from "./boltLink";
+
 export default function NowSection() {
   return (
     <section>
       <p className="section-eyebrow">Right now</p>
       <div className="now-text">
         <p>
-          Currently in my third year and interning as an SDE at <strong>Bolt.Earth</strong>, building
+          Currently in my final year and interning as an SDE at <BoltLink />, building
           internal B2B tools with Next.js, Node.js and PostgreSQL, with AWS Cognito auth and Kubernetes
           deployments.
         </p>

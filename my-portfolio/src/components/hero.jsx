@@ -1,14 +1,16 @@
+import BoltLink from "./boltLink";
+
 export default function Hero() {
   return (
     <div className="hero">
       <div className="hero-text">
-        <p className="hero-greeting fade d1">Hi, I'm Full-Stack Developer</p>
+        <p className="hero-greeting fade d1">Full-Stack Developer & Designer</p>
         <h1 className="hero-name fade d2">
           Aditi Nair —<br />
-          <em>I build for the web,<br />and I care how it looks.</em>
+          <em>Curious about how things work.<br />Particular about how they look.</em>
         </h1>
         <p className="hero-bio fade d3">
-          SDE Intern at <strong>Bolt.Earth</strong> and third-year B.Tech student at{" "}
+          SDE Intern at <BoltLink /> and final-year B.Tech student at{" "}
           <strong>Amrita Vishwa Vidyapeetham, Kerala</strong>, focused on{" "}
           <strong>backend & full-stack engineering</strong>. I build with{" "}
           <strong>Next.js, Node.js, PostgreSQL</strong> and care deeply about how things feel to use,
